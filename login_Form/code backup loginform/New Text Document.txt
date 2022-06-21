@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Login Form Design
+    </title>
+    <link rel="stylesheet" type="text/css" href="loginStyle.css">
+   
+
+<body>
+    <div class="loginbox">
+        <img src="avatar.png" class="avatar">
+        <h1>
+            Clients Login
+            <form>
+                <h2>
+                    <p>Enter Username </p>
+                    <input type="text" name="" placeholder="Enter Username">
+                    <p>Enter Password </p>
+                    <input type="password" name="" placeholder="Enter password">
+                    <input type="submit" name="" value="login">
+                    <a href="#">Lost your password</a> <br>
+                    <a href="#">Dont have an account?</a> <br>
+                </h2>
+            </form>
+        </h1>
+    </div>
+    <div class="loginboxD">
+        <img src="avatarD.png" class="avatarD">
+            <h3>
+                    Doctors Login
+                    <form>
+                        <h2>
+                            <p>Enter Docname </p>
+                            <input type="text" name="" placeholder="Enter Username">
+                            <p>Enter Password </p>
+                            <input type="password" name="" placeholder="Enter password">
+                            <input type="submit" name="" value="login">
+                            <a href="#">Lost your password</a> <br>
+                            <a href="#">Dont have an account?</a> <br>
+                        </h2>
+                    </form>
+                </h3>
+    </div>
+
+    
+       
+</body>
+
+<script src="loginCom.js">
+    </script>
+</head>
+
+</html>

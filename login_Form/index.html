@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+
+    <script src="loginUserData.js"> </script>
+    <script src="loginDrData.js"> </script>
+    <script src="phoolbootay.js"> </script>
+
+
+    <title>
+        Login Form Design
+    </title>
+    <link rel="stylesheet" type="text/css" href="loginStyle.css">
+
+</head>
+
+<body>
+    <meta http-equiv="refresh" content="60">
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8">
+
+    <div class="loginbox">
+        <img src="avatar.png" class="avatar">
+        <h1>
+            Clients Login
+            <form>
+                <h2>
+                    <p>Username </p>
+                    <input type="text" id="UserN" name="" placeholder="Enter Username">
+                    <p>Password </p>
+                    <input type="password" id="UserP" name="" placeholder="Enter password">
+                    <input onclick="userLogin()" type="button" id="myButtonP" name="" value="login">
+                    <a href="#">Lost your password</a> <br>
+                    <a href="#">Dont have an account?</a> <br>
+                </h2>
+            </form>
+        </h1>
+    </div>
+    <div class="loginboxD">
+        <img src="avatarD.png" class="avatarD">
+        <h3>
+            Doctors Login
+            <form>
+                <h2>
+                    <p>Docname </p>
+                    <input type="text" id="DocN" name="" placeholder="Enter Username">
+                    <p>Password </p>
+                    <input type="password" id="DocP" name="" placeholder="Enter password">
+                    <input onclick="doctorLogin()" type="button" id="myButtonD" name="" value="login">
+                    <a href="#">Lost your password</a> <br>
+                    <a href="#">Dont have an account?</a> <br>
+                </h2>
+            </form>
+        </h3>
+    </div>
+
+
+
+</body>
+
+</html>

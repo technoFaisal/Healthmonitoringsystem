@@ -1,0 +1,21 @@
+
+function doctorLogin() // function for storing Dr user name and passwords
+{
+    var DrName = document.getElementById("DocN").value;
+    var DrPassword = document.getElementById("DocP").value;
+
+  
+
+if(DrName ==  "doctorA" && DrPassword == "passA")  //Doctor 1
+{
+    alert("DR A logged in");
+}
+
+if(DrName ==  "doctorB" && DrPassword == "passB")  //Doctor 2
+{
+    alert("DR B logged in");
+}
+
+
+}
+
